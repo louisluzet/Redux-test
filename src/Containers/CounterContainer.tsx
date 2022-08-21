@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import Counter from "../components/Counter";
-import { decrease, increase } from "../redux-demo";
+import { decrease, increase } from "../counterReducer";
 import { RootState } from "../rootReducer";
 
 // 리덕스의 값을 불러와서 사용하고 액션을 디스패치하는 컴포넌트

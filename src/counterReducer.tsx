@@ -1,8 +1,8 @@
 // 액션 타입을 선언 
 // 뒤에 as const를 선언함으로써 나중에 액션 객체를 만들 때 action.type의 값을 추론하는 과정에서 
 // 액션 type이 string으로 추론되지 않고 counterReducer/INCREASE와 같이 실제 문자열 값으로 추론되도록
-const INCREASE = 'redux-demo/INCREASE' as const;
-const DECREASE = 'redux-demo/DECREASE' as const;
+const INCREASE = 'counterReducer/INCREASE' as const;
+const DECREASE = 'counterReducer/DECREASE' as const;
 
 export const increase = () => ({
     type: INCREASE
